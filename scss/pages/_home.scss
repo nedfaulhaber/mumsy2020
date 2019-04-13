@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-  background-color: $dark-imperial-blue;
+  background-color: $purple-taupe;
   padding-bottom: 10em;
 }
 
@@ -11,15 +11,15 @@ body {
   @include mobilenav;
   background-color: black;
   a {
-    color: $dark-imperial-blue;
+    color: $purple-taupe;
   }
 }
 
 #home-nav {
   @include nav;
-  background-color: $dark-imperial-blue;
+  background-color: $purple-taupe;
   a {
-    color: $snow;
+    color: $isabelline;
     &:hover {
       color: $pearl-aqua;
     }
@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-  color: $snow;
+  color: $isabelline;
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -43,11 +43,11 @@ body {
     text-shadow: 5px 5px 1px $eerie-black;
   }
   a {
-    color: $dark-pastel-red;
+    color: #BBD8B3;
     text-decoration: none;
     font-weight: bold;
     &:hover {
-      color: $eerie-black;
+      color: #F3B61F;
     }
   }
   @media screen and (max-width: 525px) {
