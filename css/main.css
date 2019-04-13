@@ -1,0 +1,437 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 100%; }
+
+h1 {
+  font-size: 3.6em;
+  letter-spacing: .2em;
+  font-weight: 700; }
+
+h2 {
+  font-size: 2.75em;
+  font-weight: 400; }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400; }
+
+h4 {
+  font-size: 1.2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: .14em;
+  line-height: 1.7em; }
+
+p {
+  font-size: 1em;
+  letter-spacing: .03em;
+  line-height: 1.7em;
+  font-weight: 400;
+  font-family: 'PT Sans', sans-serif;
+  text-indent: 1.5em; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: .5em; }
+
+  .artist-header {
+    font-size: 1.5em; }
+
+  .content {
+    font-size: 1.75em; } }
+@media screen and (min-width: 400px) {
+  html {
+    font-size: .5em; }
+
+  .artist-header, .content {
+    font-size: 2em; }
+
+  .nav {
+    font-size: 1.5em; } }
+@media screen and (min-width: 760px) {
+  html {
+    font-size: .6em; }
+
+  .artist-header, .content {
+    font-size: 2em; }
+
+  .nav {
+    font-size: 1.25em; } }
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: .8em; }
+
+  .artist-header {
+    font-size: 1.5em; }
+
+  .content {
+    font-size: 1.25em; } }
+@media screen and (min-width: 1143px) {
+  html {
+    font-size: 1em; } }
+@media screen and (min-width: 1700px) {
+  html {
+    font-size: 1.3em; } }
+@media screen and (min-width: 2300px) {
+  html {
+    font-size: 1.6em; } }
+@media screen and (min-width: 2880px) {
+  html {
+    font-size: 2em; } }
+@media screen and (min-width: 4000px) {
+  html {
+    font-size: 2.5em; } }
+@media screen and (min-width: 5000px) {
+  html {
+    font-size: 3.5em; } }
+body {
+  background-color: black; }
+
+#wrapper {
+  background-color: #1b4965;
+  padding-bottom: 10em; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  background-color: black; }
+  .sidenav a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Pompiere', cursive; }
+  .sidenav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em; }
+  .sidenav .closebtn {
+    font-size: 4em;
+    padding-left: .75em; }
+  .sidenav a {
+    color: #1b4965; }
+
+#home-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+  padding: 3em 3em 0;
+  background-color: #1b4965; }
+  #home-nav a {
+    font-family: 'Pompiere', cursive;
+    text-decoration: none; }
+  @media screen and (max-width: 524px) {
+    #home-nav {
+      display: none;
+      height: 0;
+      width: 0; } }
+  #home-nav a {
+    color: #fffcf7; }
+    #home-nav a:hover {
+      color: #81d2c7; }
+
+.header {
+  color: #fffcf7;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0 14em 0 14em; }
+  .header h1 {
+    margin-bottom: 1em;
+    font-family: 'Syncopate', sans-serif;
+    text-shadow: 5px 5px 1px #22181C; }
+  .header a {
+    color: #C14A23;
+    text-decoration: none;
+    font-weight: bold; }
+    .header a:hover {
+      color: #22181C; }
+  @media screen and (max-width: 525px) {
+    .header {
+      padding: 1em 2em 0;
+      font-size: 1.2em; } }
+  .header .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer; }
+    @media screen and (min-width: 525px) {
+      .header .hamburger {
+        display: none;
+        height: 0;
+        width: 0; } }
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em; }
+  .gallery .row {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    @media only screen and (max-width: 625px) {
+      .gallery .row {
+        flex-direction: column;
+        align-items: center; } }
+    .gallery .row .image {
+      background-color: #030726;
+      height: 20em;
+      width: 22em;
+      border: .063em solid white; }
+      .gallery .row .image a {
+        text-decoration: none; }
+      @media screen and (max-width: 1023px) {
+        .gallery .row .image {
+          width: 27em; } }
+      @media screen and (min-width: 2300px) {
+        .gallery .row .image {
+          width: 25em; } }
+      @media screen and (max-width: 1022px) {
+        .gallery .row .image {
+          width: 23em; } }
+      @media only screen and (max-width: 625px) {
+        .gallery .row .image {
+          width: 75%; } }
+      @media only screen and (max-width: 1029px) {
+        .gallery .row .image a {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end; } }
+      .gallery .row .image p {
+        padding: 0 3em 2em 0;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 300;
+        text-shadow: 0 0 1px black;
+        color: white; }
+        @media screen and (min-width: 1030px) {
+          .gallery .row .image p {
+            padding: 0;
+            opacity: 0;
+            color: white;
+            transition: .2s;
+            text-shadow: 0 0 1px black;
+            position: relative;
+            z-index: 2;
+            text-transform: uppercase;
+            margin: 0;
+            text-align: center;
+            line-height: 20em; }
+            .gallery .row .image p:hover {
+              opacity: 1; }
+            .gallery .row .image p:after, .gallery .row .image p:before {
+              z-index: -1;
+              transition: .2s;
+              content: "";
+              background-size: cover;
+              background-position: center;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.6); } }
+    .gallery .row #julia {
+      background-image: url("../img/julia-fischer.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #julia {
+          background-position: 0% 10%; } }
+    .gallery .row #droeloe {
+      background-image: url("../img/droeloe.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #camila {
+      background-image: url("../img/camila.png");
+      background-position: 0 0%;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #camila p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
+      @media screen and (max-width: 525px) {
+        .gallery .row #camila {
+          background-position: 0% 8%; } }
+    .gallery .row #vince {
+      background-image: url("../img/vince-home.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #vince {
+          background-position: 0% 25%; } }
+    .gallery .row #halsey {
+      background-image: url("../img/halsey.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #halsey p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
+      @media screen and (max-width: 525px) {
+        .gallery .row #halsey {
+          background-position: 10% 0%; } }
+    .gallery .row #lin-manuel {
+      background-image: url("../img/lin-manuel.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #lin-manuel {
+          background-position: 0% 8%; }
+          .gallery .row #lin-manuel p {
+            padding-right: 1em; } }
+    .gallery .row #rezz {
+      background-image: url("../img/REZZ.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #rezz p {
+          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; } }
+      @media screen and (max-width: 525px) {
+        .gallery .row #rezz {
+          background-position: 0% 20%; } }
+    .gallery .row #van-dyke {
+      background-image: url("../img/van-dyke.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #van-dyke p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
+      @media screen and (max-width: 525px) {
+        .gallery .row #van-dyke {
+          background-position: 0% 10%; } }
+    .gallery .row #lil-uzi {
+      background-image: url("../img/lil-uzi.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #lil-uzi {
+          background-position: 0% 35%; } }
+    .gallery .row #sara-ingrid {
+      background-image: url("../img/sara-ingrid.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #sara-ingrid p {
+          padding-right: .4em;
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
+      @media screen and (max-width: 525px) {
+        .gallery .row #sara-ingrid {
+          background-position: 0% 10%; } }
+    .gallery .row #charli {
+      background-image: url("../img/charli.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #charli p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
+    .gallery .row #yitaku {
+      background-image: url("../img/yitaku.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #yitaku p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
+      @media screen and (max-width: 525px) {
+        .gallery .row #yitaku {
+          background-position: 0% 70%; } }
+    .gallery .row #partynextdoor {
+      background-image: url("../img/partynextdoor.png");
+      background-position: 42%;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #partynextdoor p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
+      @media screen and (max-width: 525px) {
+        .gallery .row #partynextdoor {
+          background-position: 0% 15%; }
+          .gallery .row #partynextdoor p {
+            padding-right: 1em; } }
+    .gallery .row #bird-bee {
+      background-image: url("../img/bird-bee.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #bird-bee p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
+      @media screen and (max-width: 525px) {
+        .gallery .row #bird-bee {
+          background-position: 0% 15%; } }
+    .gallery .row #james {
+      background-image: url("../img/james.png");
+      background-position: center;
+      background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #james {
+          background-position: 0% 75%; } }
+
+/*# sourceMappingURL=main.css.map */
