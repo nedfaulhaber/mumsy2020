@@ -20,6 +20,7 @@ body {
   background-color: $phthalo-green;
   a {
     color: $isabelline;
+    text-shadow: 2px 2px 2px $russian-violet;
     &:hover {
       color: $boysenberry;
     }
@@ -40,7 +41,7 @@ body {
   h1 {
     margin-bottom: .6em;
     font-family: 'Zhi Mang Xing', cursive;
-    text-shadow: 2px 2px 1px #4A1942;
+    text-shadow: 2px 2px 2px $russian-violet;
     font-weight: 300;
     font-size: 4.3em;
   }

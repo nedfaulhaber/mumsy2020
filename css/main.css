@@ -191,7 +191,8 @@ body {
       height: 0;
       width: 0; } }
   #home-nav a {
-    color: #F3E8EE; }
+    color: #F3E8EE;
+    text-shadow: 2px 2px 2px #4A1942; }
     #home-nav a:hover {
       color: #893168; }
 
@@ -209,7 +210,7 @@ body {
   .header h1 {
     margin-bottom: .6em;
     font-family: 'Zhi Mang Xing', cursive;
-    text-shadow: 2px 2px 1px #4A1942;
+    text-shadow: 2px 2px 2px #4A1942;
     font-weight: 300;
     font-size: 4.3em; }
   .header a {
