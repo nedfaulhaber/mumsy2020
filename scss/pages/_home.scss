@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-  background-color: #122C34;
+  background-color: $phthalo-green;
   padding-bottom: 10em;
 }
 
@@ -17,17 +17,17 @@ body {
 
 #home-nav {
   @include nav;
-  background-color: #122C34;
+  background-color: $phthalo-green;
   a {
-    color: #EAEAEA;
+    color: $isabelline;
     &:hover {
-      color: #893168;
+      color: $boysenberry;
     }
   }
 }
 
 .header {
-  color: #EAEAEA;
+  color: $isabelline;
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -45,11 +45,11 @@ body {
     font-size: 4.3em;
   }
   a {
-    color: #893168;
+    color: $boysenberry;
     text-decoration: none;
     font-weight: bold;
     &:hover {
-      color: #456990;
+      color: $queen-blue;
     }
   }
   @media screen and (max-width: 525px) {

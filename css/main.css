@@ -61,7 +61,7 @@ h1 {
   font-weight: 700; }
 
 h2 {
-  font-size: 2.75em;
+  font-size: 3em;
   font-weight: 400; }
 
 h3 {
@@ -76,10 +76,10 @@ h4 {
 
 p {
   font-size: 1em;
-  letter-spacing: .03em;
+  letter-spacing: .05em;
   line-height: 1.7em;
   font-weight: 400;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-indent: 1.5em; }
 
 @media screen and (min-width: 320px) {
@@ -191,12 +191,12 @@ body {
       height: 0;
       width: 0; } }
   #home-nav a {
-    color: #EAEAEA; }
+    color: #F3E8EE; }
     #home-nav a:hover {
       color: #893168; }
 
 .header {
-  color: #EAEAEA;
+  color: #F3E8EE;
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -217,7 +217,7 @@ body {
     text-decoration: none;
     font-weight: bold; }
     .header a:hover {
-      color: #456990; }
+      color: #477998; }
   @media screen and (max-width: 525px) {
     .header {
       padding: 1em 2em 0;
@@ -436,5 +436,218 @@ body {
       @media screen and (max-width: 525px) {
         .gallery .row #james {
           background-position: 0% 75%; } }
+
+#cx-wrapper {
+  background-color: #32161f; }
+
+#cx-mobile-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  background-color: #8D9DAE; }
+  #cx-mobile-nav a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Pompiere', cursive; }
+  #cx-mobile-nav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em; }
+  #cx-mobile-nav .closebtn {
+    font-size: 4em;
+    padding-left: .75em; }
+  #cx-mobile-nav a {
+    color: #32161f; }
+
+#cx-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+  padding: 3em 3em 0;
+  background-color: #32161f; }
+  #cx-nav a {
+    font-family: 'Zhi Mang Xing', cursive;
+    letter-spacing: .1em;
+    text-decoration: none; }
+  @media screen and (max-width: 524px) {
+    #cx-nav {
+      display: none;
+      height: 0;
+      width: 0; } }
+  #cx-nav a {
+    color: #8D9DAE; }
+    #cx-nav a:hover {
+      color: #e2856e; }
+
+#cx-header {
+  margin: 5em 2em 3em 3em;
+  color: #8D9DAE; }
+  @media screen and (max-width: 600px) {
+    #cx-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0; } }
+  @media screen and (max-width: 525px) {
+    #cx-header {
+      margin-top: 0; } }
+  #cx-header h2 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    margin-bottom: .2em; }
+  #cx-header .song {
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: .2em;
+    font-size: 1.75em; }
+    #cx-header .song span {
+      font-weight: 300;
+      font-size: .6em; }
+      #cx-header .song span em {
+        font-style: italic; }
+  #cx-header .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer; }
+    @media screen and (min-width: 525px) {
+      #cx-header .hamburger {
+        display: none;
+        height: 0;
+        width: 0; } }
+  #cx-header #backseat {
+    line-height: 1.2em; }
+    @media screen and (max-width: 850px) {
+      #cx-header #backseat {
+        margin-right: 2em; } }
+    @media screen and (max-width: 600px) {
+      #cx-header #backseat {
+        text-align: center;
+        margin: 0 2em 0; } }
+
+#cx-content {
+  height: auto;
+  margin: 0 3em 0em 3em;
+  padding-bottom: 5em;
+  color: #8D9DAE; }
+  #cx-content img {
+    height: auto;
+    width: 35vw;
+    float: left;
+    margin: 0 1.5em .5em 0;
+    border-radius: 3px; }
+    @media screen and (max-width: 1024px) {
+      #cx-content img {
+        width: 40vw; } }
+    @media screen and (max-width: 600px) {
+      #cx-content img {
+        display: flex;
+        margin: 0 0 2em;
+        width: 100%;
+        float: none; } }
+  #cx-content em {
+    font-style: italic; }
+  #cx-content .info-link {
+    text-decoration: none; }
+  #cx-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em;
+    font-family: 'PT Sans', sans-serif; }
+    #cx-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
+  @media screen and (max-width: 600px) {
+    #cx-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+  @media screen and (max-width: 435px) {
+    #cx-content {
+      margin: 0 1.5em 0 1.5em; } }
+  #cx-content #carly {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 1em 1.2em;
+    width: 20vw; }
+    @media screen and (max-width: 600px) {
+      #cx-content #carly {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #cx-content #carly {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #cx-content #carly {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
+    @media screen and (max-width: 600px) {
+      #cx-content #carly {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 70%;
+        float: none; } }
+  #cx-content #easyfun {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 1em 1.2em;
+    float: left;
+    margin: .5em 1.2em 1em 0; }
+    @media screen and (max-width: 600px) {
+      #cx-content #easyfun {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #cx-content #easyfun {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #cx-content #easyfun {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
+  #cx-content #agcook {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 1em 1.2em;
+    width: 30vw; }
+    @media screen and (max-width: 600px) {
+      #cx-content #agcook {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #cx-content #agcook {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #cx-content #agcook {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
+    @media screen and (max-width: 600px) {
+      #cx-content #agcook {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 87%;
+        float: none; } }
 
 /*# sourceMappingURL=main.css.map */

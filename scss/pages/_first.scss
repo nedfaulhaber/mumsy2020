@@ -1,0 +1,61 @@
+#cx-wrapper {
+  background-color: $dark-sienna;
+}
+
+#cx-mobile-nav {
+  @include mobilenav;
+  background-color: $cadet-grey;
+  a {
+    color: $dark-sienna;
+  }
+}
+
+#cx-nav {
+  @include nav;
+  background-color: $dark-sienna;
+  a {
+    color: $cadet-grey;
+    &:hover {
+      color: $middle-red;
+    }
+  }
+}
+
+#cx-header {
+  @include artist-header;
+  color: $cadet-grey;
+  #backseat {
+    @include long-song;
+  }
+
+}
+
+#cx-content {
+  @include content;
+  color: $cadet-grey;
+  #carly {
+    @include feat-artist;
+    width: 20vw;
+    @media screen and (max-width: 600px) {
+      display: flex;
+      margin: 2em 0 2em;
+      width: 70%;
+      float: none;
+    }
+  }
+  #easyfun {
+    @include feat-artist;
+    float: left;
+    margin: .5em 1.2em 1em 0;
+  }
+  #agcook {
+    @include feat-artist;
+    width: 30vw;
+    @media screen and (max-width: 600px) {
+      display: flex;
+      margin: 2em 0 2em;
+      width: 87%;
+      float: none;
+    }
+  }
+}
