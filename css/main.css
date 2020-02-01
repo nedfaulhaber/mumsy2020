@@ -306,12 +306,12 @@ body {
               width: 100%;
               height: 100%;
               background-color: rgba(0, 0, 0, 0.6); } }
-    .gallery .row #julia {
-      background-image: url("../img/julia-fischer.png");
-      background-position: center;
+    .gallery .row #rush1 {
+      background-image: url("../img/neil77.png");
+      background-position: 0% 10%;
       background-size: cover; }
       @media screen and (max-width: 525px) {
-        .gallery .row #julia {
+        .gallery .row #rush1 {
           background-position: 0% 10%; } }
     .gallery .row #droeloe {
       background-image: url("../img/droeloe.png");
