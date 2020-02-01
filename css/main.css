@@ -317,15 +317,15 @@ body {
       background-image: url("../img/venetian.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #camila {
-      background-image: url("../img/camila.png");
+    .gallery .row #kim {
+      background-image: url("../img/kimmy.png");
       background-position: 0 0%;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #camila p {
+        .gallery .row #kim p {
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
-        .gallery .row #camila {
+        .gallery .row #kim {
           background-position: 0% 8%; } }
     .gallery .row #vince {
       background-image: url("../img/vince-home.png");
