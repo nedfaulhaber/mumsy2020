@@ -313,8 +313,8 @@ body {
       @media screen and (max-width: 525px) {
         .gallery .row #rush1 {
           background-position: 0% 10%; } }
-    .gallery .row #droeloe {
-      background-image: url("../img/droeloe.png");
+    .gallery .row #venetian {
+      background-image: url("../img/venetian.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #camila {
