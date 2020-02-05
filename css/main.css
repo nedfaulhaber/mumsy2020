@@ -319,7 +319,7 @@ body {
       background-size: cover; }
     .gallery .row #kim {
       background-image: url("../img/kimmy.png");
-      background-position: 0 0%;
+      background-position: 0% 0%;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
         .gallery .row #kim p {
@@ -327,31 +327,31 @@ body {
       @media screen and (max-width: 525px) {
         .gallery .row #kim {
           background-position: 0% 8%; } }
-    .gallery .row #vince {
-      background-image: url("../img/vince-home.png");
+    .gallery .row #ray {
+      background-image: url("../img/ray-acid.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 525px) {
-        .gallery .row #vince {
+        .gallery .row #ray {
           background-position: 0% 25%; } }
-    .gallery .row #halsey {
-      background-image: url("../img/halsey.png");
-      background-position: center;
+    .gallery .row #khalid {
+      background-image: url("../img/khalid-smile.png");
+      background-position: 0 10%;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #halsey p {
+        .gallery .row #khalid p {
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
-        .gallery .row #halsey {
+        .gallery .row #khalid {
           background-position: 10% 0%; } }
-    .gallery .row #lin-manuel {
-      background-image: url("../img/lin-manuel.png");
-      background-position: center;
+    .gallery .row #maren {
+      background-image: url("../img/maren-morris.png");
+      background-position: 0% 0%;
       background-size: cover; }
       @media screen and (max-width: 525px) {
-        .gallery .row #lin-manuel {
+        .gallery .row #maren {
           background-position: 0% 8%; }
-          .gallery .row #lin-manuel p {
+          .gallery .row #maren p {
             padding-right: 1em; } }
     .gallery .row #rezz {
       background-image: url("../img/REZZ.png");
