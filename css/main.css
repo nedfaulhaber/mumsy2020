@@ -353,43 +353,43 @@ body {
           background-position: 0% 8%; }
           .gallery .row #maren p {
             padding-right: 1em; } }
-    .gallery .row #rezz {
-      background-image: url("../img/REZZ.png");
+    .gallery .row #yvette {
+      background-image: url("../img/yvette.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #rezz p {
+        .gallery .row #yvette p {
           text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; } }
       @media screen and (max-width: 525px) {
-        .gallery .row #rezz {
+        .gallery .row #yvette {
           background-position: 0% 20%; } }
-    .gallery .row #van-dyke {
-      background-image: url("../img/van-dyke.png");
+    .gallery .row #billie {
+      background-image: url("../img/billie-eilish.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #van-dyke p {
+        .gallery .row #billie p {
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
-        .gallery .row #van-dyke {
+        .gallery .row #billie {
           background-position: 0% 10%; } }
-    .gallery .row #lil-uzi {
-      background-image: url("../img/lil-uzi.png");
+    .gallery .row #trane {
+      background-image: url("../img/trane_1963.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 525px) {
-        .gallery .row #lil-uzi {
+        .gallery .row #trane {
           background-position: 0% 35%; } }
-    .gallery .row #sara-ingrid {
-      background-image: url("../img/sara-ingrid.png");
-      background-position: center;
+    .gallery .row #lana {
+      background-image: url("../img/lana-pose.png");
+      background-position: 0% 0%;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #sara-ingrid p {
+        .gallery .row #lana p {
           padding-right: .4em;
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
-        .gallery .row #sara-ingrid {
+        .gallery .row #lana {
           background-position: 0% 10%; } }
     .gallery .row #charli {
       background-image: url("../img/charli.png");
