@@ -391,22 +391,22 @@ body {
       @media screen and (max-width: 525px) {
         .gallery .row #lana {
           background-position: 0% 10%; } }
-    .gallery .row #charli {
-      background-image: url("../img/charli.png");
-      background-position: center;
+    .gallery .row #toro {
+      background-image: url("../img/toro.png");
+      background-position: 0% 10%;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #charli p {
+        .gallery .row #toro p {
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
-    .gallery .row #yitaku {
-      background-image: url("../img/yitaku.png");
+    .gallery .row #twigs {
+      background-image: url("../img/twigs.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #yitaku p {
+        .gallery .row #twigs p {
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
-        .gallery .row #yitaku {
+        .gallery .row #twigs {
           background-position: 0% 70%; } }
     .gallery .row #partynextdoor {
       background-image: url("../img/partynextdoor.png");
