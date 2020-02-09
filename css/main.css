@@ -430,12 +430,12 @@ body {
       @media screen and (max-width: 525px) {
         .gallery .row #nils {
           background-position: 0% 15%; } }
-    .gallery .row #james {
-      background-image: url("../img/james.png");
+    .gallery .row #rush2 {
+      background-image: url("../img/neil-84.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 525px) {
-        .gallery .row #james {
+        .gallery .row #rush2 {
           background-position: 0% 75%; } }
 
 #cx-wrapper {
