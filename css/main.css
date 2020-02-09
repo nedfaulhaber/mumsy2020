@@ -345,7 +345,7 @@ body {
         .gallery .row #khalid {
           background-position: 10% 0%; } }
     .gallery .row #maren {
-      background-image: url("../img/maren-morris.png");
+      background-image: url("../img/maren.png");
       background-position: 0% 0%;
       background-size: cover; }
       @media screen and (max-width: 525px) {
@@ -408,27 +408,27 @@ body {
       @media screen and (max-width: 525px) {
         .gallery .row #twigs {
           background-position: 0% 70%; } }
-    .gallery .row #partynextdoor {
-      background-image: url("../img/partynextdoor.png");
+    .gallery .row #juice {
+      background-image: url("../img/juice.png");
       background-position: 42%;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #partynextdoor p {
+        .gallery .row #juice p {
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
-        .gallery .row #partynextdoor {
+        .gallery .row #juice {
           background-position: 0% 15%; }
-          .gallery .row #partynextdoor p {
+          .gallery .row #juice p {
             padding-right: 1em; } }
-    .gallery .row #bird-bee {
-      background-image: url("../img/bird-bee.png");
+    .gallery .row #nils {
+      background-image: url("../img/nils.png");
       background-position: center;
       background-size: cover; }
       @media screen and (max-width: 1029px) {
-        .gallery .row #bird-bee p {
+        .gallery .row #nils p {
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
-        .gallery .row #bird-bee {
+        .gallery .row #nils {
           background-position: 0% 15%; } }
     .gallery .row #james {
       background-image: url("../img/james.png");
