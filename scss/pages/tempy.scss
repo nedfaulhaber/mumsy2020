@@ -1,38 +1,38 @@
-#cx-wrapper {
-  background-color: $dark-sienna;
+#temp-wrapper {
+  background-color: $sea-blue;
 }
 
-#cx-mobile-nav {
+#temp-mobile-nav {
   @include mobilenav;
-  background-color: $cadet-grey;
+  background-color: $sea-blue;
   a {
-    color: $dark-sienna;
+    color: $marigold;
   }
 }
 
-#cx-nav {
+#temp-nav {
   @include nav;
-  background-color: $dark-sienna;
+  background-color: $sea-blue;
   a {
-    color: $cadet-grey;
+    color: $marigold;
     &:hover {
-      color: $middle-red;
+      color: $cinnamon-satin;
     }
   }
 }
 
-#cx-header {
+#temp-header {
   @include artist-header;
-  color: $cadet-grey;
+  color: $marigold;
   #backseat {
     @include long-song;
   }
 
 }
 
-#cx-content {
+#temp-content {
   @include content;
-  color: $cadet-grey;
+  color: $marigold;
   #carly {
     @include feat-artist;
     width: 20vw;

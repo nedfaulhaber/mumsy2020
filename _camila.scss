@@ -1,0 +1,45 @@
+#cc-wrapper {
+  background-color: $eerie-black;
+}
+
+#cc-mobile-nav {
+  @include mobilenav;
+  background-color: $rackley;
+  a {
+    color: $eerie-black;
+  }
+}
+
+#cc-nav {
+  @include nav;
+  background-color: $eerie-black;
+  a {
+    color: $rackley;
+    &:hover {
+      color: $byzantine;
+    }
+  }
+}
+
+#cc-header {
+@include artist-header;
+  color: $rackley;
+  #havana {
+    @include long-song;
+  }
+}
+
+#cc-content {
+  @include content;
+  padding-bottom: 15em;
+  color: $rackley;
+  a {
+    color: $byzantine;
+    &:hover {
+      color: $light-grey;
+    }
+  }
+  #thug {
+    @include feat-artist;
+  }
+}
