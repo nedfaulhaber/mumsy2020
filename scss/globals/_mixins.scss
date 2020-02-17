@@ -23,7 +23,7 @@
     font-size: 28px;
     display: block;
     transition: 0.3s;
-    font-family: 'Pompiere', cursive;
+    font-family: 'Obibee Sans', cursive;
   }
   .sidenav .closebtn {
     position: absolute;
@@ -46,7 +46,7 @@
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   a {
-    font-family: 'Zhi Mang Xing', cursive;
+    font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
     text-decoration: none;
   }
@@ -89,7 +89,7 @@
 
 @mixin artist {
   h2 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Odibee Sans', cursive;
     font-weight: 600;
     margin-bottom: .2em;
   }
@@ -97,7 +97,7 @@
 
 
 @mixin song {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Odibee Sans', cursive;
   margin-bottom: .2em;
   font-size: 1.75em;
   span {
@@ -140,7 +140,7 @@
   height: auto;
   width: 25vw;
   float: right;
-  margin: .5em 0 1em 1.2em;
+  margin: .5em 0 .6em 1.2em;
   @media screen and (max-width: 600px) {
     margin-left: 0;
   }
@@ -174,7 +174,7 @@
     line-height: 1.7em;
     font-weight: 400;
     text-indent: 1.5em;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Odibee Sans', cursive;
     a {
     text-decoration: none;
     color: inherit;

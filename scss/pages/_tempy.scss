@@ -1,29 +1,29 @@
 #temp-wrapper {
-  background-color: $sea-blue;
+  background-color: $gunmetal;
 }
 
 #temp-mobile-nav {
   @include mobilenav;
-  background-color: $sea-blue;
+  background-color: $gunmetal;
   a {
-    color: $marigold;
+    color: $honeydew;
   }
 }
 
 #temp-nav {
   @include nav;
-  background-color: $sea-blue;
+  background-color: $gunmetal;
   a {
-    color: $marigold;
+    color: $honeydew;
     &:hover {
-      color: $cinnamon-satin;
+      color: black;
     }
   }
 }
 
 #temp-header {
   @include artist-header;
-  color: $marigold;
+  color: $honeydew;
   #backseat {
     @include long-song;
   }
@@ -32,10 +32,10 @@
 
 #temp-content {
   @include content;
-  color: $marigold;
-  #carly {
+  color: $honeydew;
+  #lestudio {
     @include feat-artist;
-    width: 20vw;
+    width: 25vw;
     @media screen and (max-width: 600px) {
       display: flex;
       margin: 2em 0 2em;
@@ -43,10 +43,10 @@
       float: none;
     }
   }
-  #easyfun {
+  #neil81 {
     @include feat-artist;
     float: left;
-    margin: .5em 1.2em 1em 0;
+    margin: .5em 1.2em .5em 0;
   }
   #agcook {
     @include feat-artist;
