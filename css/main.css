@@ -440,10 +440,10 @@ body {
         .gallery .row #neil2 {
           background-position: 0% 75%; } }
 
-#temp-wrapper {
+#rush-wrapper {
   background-color: #273043; }
 
-#temp-mobile-nav {
+#rush-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -454,25 +454,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #273043; }
-  #temp-mobile-nav a {
+  #rush-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #temp-mobile-nav .sidenav .closebtn {
+  #rush-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #temp-mobile-nav .closebtn {
+  #rush-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #temp-mobile-nav a {
+  #rush-mobile-nav a {
     color: #EFF6EE; }
 
-#temp-nav {
+#rush-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -481,92 +481,83 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #273043; }
-  #temp-nav a {
+  #rush-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #temp-nav {
+    #rush-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #temp-nav a {
+  #rush-nav a {
     color: #EFF6EE; }
-    #temp-nav a:hover {
+    #rush-nav a:hover {
       color: black; }
 
-#temp-header {
+#rush-header {
   margin: 5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
-    #temp-header {
+    #rush-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #temp-header {
+    #rush-header {
       margin-top: 0; } }
-  #temp-header h2 {
+  #rush-header h2 {
     font-family: 'Odibee Sans', cursive;
     font-weight: 600;
     margin-bottom: .2em; }
-  #temp-header .song {
+  #rush-header .song {
     font-family: 'Odibee Sans', cursive;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #temp-header .song span {
+    #rush-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #temp-header .song span em {
+      #rush-header .song span em {
         font-style: italic; }
-  #temp-header .hamburger {
+  #rush-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #temp-header .hamburger {
+      #rush-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
-  #temp-header #backseat {
-    line-height: 1.2em; }
-    @media screen and (max-width: 850px) {
-      #temp-header #backseat {
-        margin-right: 2em; } }
-    @media screen and (max-width: 600px) {
-      #temp-header #backseat {
-        text-align: center;
-        margin: 0 2em 0; } }
 
-#temp-content {
+#rush-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #EFF6EE; }
-  #temp-content img {
+  #rush-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #temp-content img {
+      #rush-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #temp-content img {
+      #rush-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #temp-content em {
+  #rush-content em {
     font-style: italic; }
-  #temp-content .info-link {
+  #rush-content .info-link {
     text-decoration: none; }
-  #temp-content .lyrics {
+  #rush-content .lyrics {
     margin-top: 2em;
     font-size: 1em;
     letter-spacing: .03em;
@@ -574,42 +565,42 @@ body {
     font-weight: 400;
     text-indent: 1.5em;
     font-family: 'Odibee Sans', cursive; }
-    #temp-content .lyrics a {
+    #rush-content .lyrics a {
       text-decoration: none;
       color: inherit; }
   @media screen and (max-width: 600px) {
-    #temp-content {
+    #rush-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #temp-content {
+    #rush-content {
       margin: 0 1.5em 0 1.5em; } }
-  #temp-content #lestudio {
+  #rush-content #lestudio {
     height: auto;
     width: 25vw;
     float: right;
     margin: .5em 0 .6em 1.2em;
     width: 25vw; }
     @media screen and (max-width: 600px) {
-      #temp-content #lestudio {
+      #rush-content #lestudio {
         margin-left: 0; } }
     @media screen and (max-width: 1024px) {
-      #temp-content #lestudio {
+      #rush-content #lestudio {
         width: 35vw; } }
     @media screen and (max-width: 600px) {
-      #temp-content #lestudio {
+      #rush-content #lestudio {
         display: flex;
         margin: 2em 0 2em;
         width: 100%;
         float: none; } }
     @media screen and (max-width: 600px) {
-      #temp-content #lestudio {
+      #rush-content #lestudio {
         display: flex;
         margin: 2em 0 2em;
         width: 70%;
         float: none; } }
-  #temp-content #neil81 {
+  #rush-content #neil81 {
     height: auto;
     width: 25vw;
     float: right;
@@ -617,40 +608,16 @@ body {
     float: left;
     margin: .5em 1.2em .5em 0; }
     @media screen and (max-width: 600px) {
-      #temp-content #neil81 {
+      #rush-content #neil81 {
         margin-left: 0; } }
     @media screen and (max-width: 1024px) {
-      #temp-content #neil81 {
+      #rush-content #neil81 {
         width: 35vw; } }
     @media screen and (max-width: 600px) {
-      #temp-content #neil81 {
+      #rush-content #neil81 {
         display: flex;
         margin: 2em 0 2em;
         width: 100%;
-        float: none; } }
-  #temp-content #agcook {
-    height: auto;
-    width: 25vw;
-    float: right;
-    margin: .5em 0 .6em 1.2em;
-    width: 30vw; }
-    @media screen and (max-width: 600px) {
-      #temp-content #agcook {
-        margin-left: 0; } }
-    @media screen and (max-width: 1024px) {
-      #temp-content #agcook {
-        width: 35vw; } }
-    @media screen and (max-width: 600px) {
-      #temp-content #agcook {
-        display: flex;
-        margin: 2em 0 2em;
-        width: 100%;
-        float: none; } }
-    @media screen and (max-width: 600px) {
-      #temp-content #agcook {
-        display: flex;
-        margin: 2em 0 2em;
-        width: 87%;
         float: none; } }
 
 /*# sourceMappingURL=main.css.map */

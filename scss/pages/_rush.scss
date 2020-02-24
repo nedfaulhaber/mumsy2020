@@ -1,8 +1,8 @@
-#temp-wrapper {
+#rush-wrapper {
   background-color: $gunmetal;
 }
 
-#temp-mobile-nav {
+#rush-mobile-nav {
   @include mobilenav;
   background-color: $gunmetal;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#temp-nav {
+#rush-nav {
   @include nav;
   background-color: $gunmetal;
   a {
@@ -21,16 +21,12 @@
   }
 }
 
-#temp-header {
+#rush-header {
   @include artist-header;
   color: $honeydew;
-  #backseat {
-    @include long-song;
-  }
-
 }
 
-#temp-content {
+#rush-content {
   @include content;
   color: $honeydew;
   #lestudio {
@@ -47,15 +43,5 @@
     @include feat-artist;
     float: left;
     margin: .5em 1.2em .5em 0;
-  }
-  #agcook {
-    @include feat-artist;
-    width: 30vw;
-    @media screen and (max-width: 600px) {
-      display: flex;
-      margin: 2em 0 2em;
-      width: 87%;
-      float: none;
-    }
   }
 }
