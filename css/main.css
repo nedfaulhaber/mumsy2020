@@ -620,4 +620,184 @@ body {
         width: 100%;
         float: none; } }
 
+#snares-wrapper {
+  background-color: #2E86AB; }
+
+#snares-mobile-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  background-color: #273043; }
+  #snares-mobile-nav a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Obibee Sans', cursive; }
+  #snares-mobile-nav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em; }
+  #snares-mobile-nav .closebtn {
+    font-size: 4em;
+    padding-left: .75em; }
+  #snares-mobile-nav a {
+    color: #EFF6EE; }
+
+#snares-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+  padding: 3em 3em 0;
+  background-color: #2E86AB; }
+  #snares-nav a {
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: .1em;
+    text-decoration: none; }
+  @media screen and (max-width: 524px) {
+    #snares-nav {
+      display: none;
+      height: 0;
+      width: 0; } }
+  #snares-nav a {
+    color: #EFF6EE; }
+    #snares-nav a:hover {
+      color: black; }
+
+#snares-header {
+  margin: 5em 2em 3em 3em;
+  color: #EFF6EE; }
+  @media screen and (max-width: 600px) {
+    #snares-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0; } }
+  @media screen and (max-width: 525px) {
+    #snares-header {
+      margin-top: 0; } }
+  #snares-header h2 {
+    font-family: 'Odibee Sans', cursive;
+    font-weight: 600;
+    margin-bottom: .2em; }
+  #snares-header .song {
+    font-family: 'Odibee Sans', cursive;
+    margin-bottom: .2em;
+    font-size: 1.75em; }
+    #snares-header .song span {
+      font-weight: 300;
+      font-size: .6em; }
+      #snares-header .song span em {
+        font-style: italic; }
+  #snares-header .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer; }
+    @media screen and (min-width: 525px) {
+      #snares-header .hamburger {
+        display: none;
+        height: 0;
+        width: 0; } }
+
+#snares-content {
+  height: auto;
+  margin: 0 3em 0em 3em;
+  padding-bottom: 5em;
+  color: #EFF6EE; }
+  #snares-content img {
+    height: auto;
+    width: 35vw;
+    float: left;
+    margin: 0 1.5em .5em 0;
+    border-radius: 3px; }
+    @media screen and (max-width: 1024px) {
+      #snares-content img {
+        width: 40vw; } }
+    @media screen and (max-width: 600px) {
+      #snares-content img {
+        display: flex;
+        margin: 0 0 2em;
+        width: 100%;
+        float: none; } }
+  #snares-content em {
+    font-style: italic; }
+  #snares-content .info-link {
+    text-decoration: none; }
+  #snares-content .lyrics {
+    margin-top: 2em;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-indent: 1.5em;
+    font-family: 'Odibee Sans', cursive; }
+    #snares-content .lyrics a {
+      text-decoration: none;
+      color: inherit; }
+  @media screen and (max-width: 600px) {
+    #snares-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+  @media screen and (max-width: 435px) {
+    #snares-content {
+      margin: 0 1.5em 0 1.5em; } }
+  #snares-content #lestudio {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 .6em 1.2em;
+    width: 25vw; }
+    @media screen and (max-width: 600px) {
+      #snares-content #lestudio {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #snares-content #lestudio {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #snares-content #lestudio {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
+    @media screen and (max-width: 600px) {
+      #snares-content #lestudio {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 70%;
+        float: none; } }
+  #snares-content #neil81 {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 .6em 1.2em;
+    float: left;
+    margin: .5em 1.2em .5em 0; }
+    @media screen and (max-width: 600px) {
+      #snares-content #neil81 {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #snares-content #neil81 {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #snares-content #neil81 {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
+
 /*# sourceMappingURL=main.css.map */

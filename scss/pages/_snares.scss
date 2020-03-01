@@ -1,0 +1,47 @@
+#snares-wrapper {
+  background-color: #2E86AB;
+}
+
+#snares-mobile-nav {
+  @include mobilenav;
+  background-color: $gunmetal;
+  a {
+    color: $honeydew;
+  }
+}
+
+#snares-nav {
+  @include nav;
+  background-color: #2E86AB;
+  a {
+    color: $honeydew;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#snares-header {
+  @include artist-header;
+  color: $honeydew;
+}
+
+#snares-content {
+  @include content;
+  color: $honeydew;
+  #lestudio {
+    @include feat-artist;
+    width: 25vw;
+    @media screen and (max-width: 600px) {
+      display: flex;
+      margin: 2em 0 2em;
+      width: 70%;
+      float: none;
+    }
+  }
+  #neil81 {
+    @include feat-artist;
+    float: left;
+    margin: .5em 1.2em .5em 0;
+  }
+}
