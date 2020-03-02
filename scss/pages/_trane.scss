@@ -1,0 +1,47 @@
+#trane-wrapper {
+  background-color: $gunmetal;
+}
+
+#trane-mobile-nav {
+  @include mobilenav;
+  background-color: $gunmetal;
+  a {
+    color: $honeydew;
+  }
+}
+
+#trane-nav {
+  @include nav;
+  background-color: $gunmetal;
+  a {
+    color: $honeydew;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#trane-header {
+  @include artist-header;
+  color: $honeydew;
+}
+
+#trane-content {
+  @include content;
+  color: $honeydew;
+  #lestudio {
+    @include feat-artist;
+    width: 25vw;
+    @media screen and (max-width: 600px) {
+      display: flex;
+      margin: 2em 0 2em;
+      width: 70%;
+      float: none;
+    }
+  }
+  #neil81 {
+    @include feat-artist;
+    float: left;
+    margin: .5em 1.2em .5em 0;
+  }
+}

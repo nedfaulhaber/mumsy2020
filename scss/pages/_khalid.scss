@@ -1,8 +1,8 @@
-#snares-wrapper {
-  background-color: $steel-blue;
+#khalid-wrapper {
+  background-color: black;
 }
 
-#snares-mobile-nav {
+#khalid-mobile-nav {
   @include mobilenav;
   background-color: $gunmetal;
   a {
@@ -10,9 +10,9 @@
   }
 }
 
-#snares-nav {
+#khalid-nav {
   @include nav;
-  background-color: $steel-blue;
+  background-color: black;
   a {
     color: $honeydew;
     &:hover {
@@ -21,12 +21,12 @@
   }
 }
 
-#snares-header {
+#khalid-header {
   @include artist-header;
   color: $honeydew;
 }
 
-#snares-content {
+#khalid-content {
   @include content;
   color: $honeydew;
 }

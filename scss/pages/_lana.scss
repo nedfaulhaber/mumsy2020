@@ -1,8 +1,8 @@
-#snares-wrapper {
-  background-color: $steel-blue;
+#lana-wrapper {
+  background-color: black;
 }
 
-#snares-mobile-nav {
+#lana-mobile-nav {
   @include mobilenav;
   background-color: $gunmetal;
   a {
@@ -10,9 +10,9 @@
   }
 }
 
-#snares-nav {
+#lana-nav {
   @include nav;
-  background-color: $steel-blue;
+  background-color: black;
   a {
     color: $honeydew;
     &:hover {
@@ -21,12 +21,15 @@
   }
 }
 
-#snares-header {
+#lana-header {
   @include artist-header;
   color: $honeydew;
+  #hope {
+    @include long-song;
+  }
 }
 
-#snares-content {
+#lana-content {
   @include content;
   color: $honeydew;
 }

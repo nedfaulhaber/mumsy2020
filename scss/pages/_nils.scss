@@ -1,8 +1,8 @@
-#snares-wrapper {
-  background-color: $steel-blue;
+#nils-wrapper {
+  background-color: black;
 }
 
-#snares-mobile-nav {
+#nils-mobile-nav {
   @include mobilenav;
   background-color: $gunmetal;
   a {
@@ -10,9 +10,9 @@
   }
 }
 
-#snares-nav {
+#nils-nav {
   @include nav;
-  background-color: $steel-blue;
+  background-color: black;
   a {
     color: $honeydew;
     &:hover {
@@ -21,12 +21,12 @@
   }
 }
 
-#snares-header {
+#nils-header {
   @include artist-header;
   color: $honeydew;
 }
 
-#snares-content {
+#nils-content {
   @include content;
   color: $honeydew;
 }
