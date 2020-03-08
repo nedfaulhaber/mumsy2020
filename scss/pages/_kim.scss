@@ -1,5 +1,5 @@
 #kim-wrapper {
-  background-color: black;
+  background-color: $raspberry-glace;
 }
 
 #kim-mobile-nav {
@@ -12,9 +12,9 @@
 
 #kim-nav {
   @include nav;
-  background-color: black;
+  background-color: $raspberry-glace;
   a {
-    color: $honeydew;
+    color: $pale-lavender;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #kim-header {
   @include artist-header;
-  color: $honeydew;
+  color: $pale-lavender;
 }
 
 #kim-content {
   @include content;
-  color: $honeydew;
+  color: $pale-lavender;
 }

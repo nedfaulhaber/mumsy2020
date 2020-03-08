@@ -14,7 +14,7 @@
   @include nav;
   background-color: $steel-blue;
   a {
-    color: $honeydew;
+    color: white;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #snares-header {
   @include artist-header;
-  color: $honeydew;
+  color: white;
 }
 
 #snares-content {
   @include content;
-  color: $honeydew;
+  color: white;
 }
