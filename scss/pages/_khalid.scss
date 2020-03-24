@@ -1,5 +1,5 @@
 #khalid-wrapper {
-  background-color: black;
+  background-color: $space-cadet;
 }
 
 #khalid-mobile-nav {
@@ -12,9 +12,9 @@
 
 #khalid-nav {
   @include nav;
-  background-color: black;
+  background-color: $space-cadet;
   a {
-    color: $honeydew;
+    color: $anti-flash-white;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #khalid-header {
   @include artist-header;
-  color: $honeydew;
+  color: $anti-flash-white;
 }
 
 #khalid-content {
   @include content;
-  color: $honeydew;
+  color: $anti-flash-white;
 }

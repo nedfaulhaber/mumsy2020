@@ -496,7 +496,7 @@ body {
       color: black; }
 
 #rush-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #rush-header {
@@ -676,7 +676,7 @@ body {
       color: black; }
 
 #snares-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: white; }
   @media screen and (max-width: 600px) {
     #snares-header {
@@ -813,7 +813,7 @@ body {
       color: black; }
 
 #kim-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #E2CFEA; }
   @media screen and (max-width: 600px) {
     #kim-header {
@@ -950,7 +950,7 @@ body {
       color: black; }
 
 #ray-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: white; }
   @media screen and (max-width: 600px) {
     #ray-header {
@@ -1032,7 +1032,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #khalid-wrapper {
-  background-color: black; }
+  background-color: #1B264F; }
 
 #khalid-mobile-nav {
   height: 100%;
@@ -1071,7 +1071,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
+  background-color: #1B264F; }
   #khalid-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
@@ -1082,13 +1082,13 @@ body {
       height: 0;
       width: 0; } }
   #khalid-nav a {
-    color: #EFF6EE; }
+    color: #EEF2F2; }
     #khalid-nav a:hover {
       color: black; }
 
 #khalid-header {
-  margin: 5em 2em 3em 3em;
-  color: #EFF6EE; }
+  margin: 3.5em 2em 3em 3em;
+  color: #EEF2F2; }
   @media screen and (max-width: 600px) {
     #khalid-header {
       display: flex;
@@ -1128,7 +1128,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #EEF2F2; }
   #khalid-content img {
     height: auto;
     width: 35vw;
@@ -1224,7 +1224,7 @@ body {
       color: black; }
 
 #maren-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #maren-header {
@@ -1361,7 +1361,7 @@ body {
       color: black; }
 
 #yvette-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #yvette-header {
@@ -1498,7 +1498,7 @@ body {
       color: black; }
 
 #billie-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #billie-header {
@@ -1635,7 +1635,7 @@ body {
       color: black; }
 
 #trane-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #trane-header {
@@ -1815,7 +1815,7 @@ body {
       color: black; }
 
 #lana-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #lana-header {
@@ -1961,7 +1961,7 @@ body {
       color: black; }
 
 #toro-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #toro-header {
@@ -2098,7 +2098,7 @@ body {
       color: black; }
 
 #twigs-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #twigs-header {
@@ -2235,7 +2235,7 @@ body {
       color: black; }
 
 #juice-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #juice-header {
@@ -2372,7 +2372,7 @@ body {
       color: black; }
 
 #nils-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #nils-header {
@@ -2509,7 +2509,7 @@ body {
       color: black; }
 
 #rush2-header {
-  margin: 5em 2em 3em 3em;
+  margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
     #rush2-header {
