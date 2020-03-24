@@ -1169,7 +1169,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #maren-wrapper {
-  background-color: black; }
+  background-color: #353535; }
 
 #maren-mobile-nav {
   height: 100%;
@@ -1208,7 +1208,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
+  background-color: #353535; }
   #maren-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
@@ -1219,13 +1219,13 @@ body {
       height: 0;
       width: 0; } }
   #maren-nav a {
-    color: #EFF6EE; }
+    color: #93B7BE; }
     #maren-nav a:hover {
       color: black; }
 
 #maren-header {
   margin: 3.5em 2em 3em 3em;
-  color: #EFF6EE; }
+  color: #93B7BE; }
   @media screen and (max-width: 600px) {
     #maren-header {
       display: flex;
@@ -1265,7 +1265,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #93B7BE; }
   #maren-content img {
     height: auto;
     width: 35vw;
@@ -1306,7 +1306,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #yvette-wrapper {
-  background-color: black; }
+  background-color: #60463B; }
 
 #yvette-mobile-nav {
   height: 100%;
@@ -1335,7 +1335,7 @@ body {
     font-size: 4em;
     padding-left: .75em; }
   #yvette-mobile-nav a {
-    color: #EFF6EE; }
+    color: #CCC9E7; }
 
 #yvette-nav {
   display: flex;
@@ -1345,7 +1345,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
+  background-color: #60463B; }
   #yvette-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
@@ -1356,13 +1356,13 @@ body {
       height: 0;
       width: 0; } }
   #yvette-nav a {
-    color: #EFF6EE; }
+    color: #CCC9E7; }
     #yvette-nav a:hover {
       color: black; }
 
 #yvette-header {
   margin: 3.5em 2em 3em 3em;
-  color: #EFF6EE; }
+  color: #CCC9E7; }
   @media screen and (max-width: 600px) {
     #yvette-header {
       display: flex;
@@ -1402,7 +1402,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #CCC9E7; }
   #yvette-content img {
     height: auto;
     width: 35vw;

@@ -1,20 +1,20 @@
 #yvette-wrapper {
-  background-color: black;
+  background-color: $rose-ebony;
 }
 
 #yvette-mobile-nav {
   @include mobilenav;
   background-color: $gunmetal;
   a {
-    color: $honeydew;
+    color: $soap;
   }
 }
 
 #yvette-nav {
   @include nav;
-  background-color: black;
+  background-color: $rose-ebony;
   a {
-    color: $honeydew;
+    color: $soap;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #yvette-header {
   @include artist-header;
-  color: $honeydew;
+  color: $soap;
 }
 
 #yvette-content {
   @include content;
-  color: $honeydew;
+  color: $soap;
 }
