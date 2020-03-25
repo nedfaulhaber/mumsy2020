@@ -1,5 +1,5 @@
 #trane-wrapper {
-  background-color: $gunmetal;
+  background-color: $arsenic;
 }
 
 #trane-mobile-nav {
@@ -12,7 +12,7 @@
 
 #trane-nav {
   @include nav;
-  background-color: $gunmetal;
+  background-color: $arsenic;
   a {
     color: $honeydew;
     &:hover {
@@ -23,13 +23,13 @@
 
 #trane-header {
   @include artist-header;
-  color: $honeydew;
+  color: #F3EEE7;
 }
 
 #trane-content {
   @include content;
-  color: $honeydew;
-  #lestudio {
+  color: #F3EEE7;
+  #quartet {
     @include feat-artist;
     width: 25vw;
     @media screen and (max-width: 600px) {
@@ -39,7 +39,7 @@
       float: none;
     }
   }
-  #neil81 {
+  #quartet_live {
     @include feat-artist;
     float: left;
     margin: .5em 1.2em .5em 0;

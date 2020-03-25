@@ -1443,7 +1443,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #billie-wrapper {
-  background-color: black; }
+  background-color: #70163C; }
 
 #billie-mobile-nav {
   height: 100%;
@@ -1482,7 +1482,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
+  background-color: #70163C; }
   #billie-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
@@ -1493,13 +1493,13 @@ body {
       height: 0;
       width: 0; } }
   #billie-nav a {
-    color: #EFF6EE; }
+    color: #BFC3BA; }
     #billie-nav a:hover {
       color: black; }
 
 #billie-header {
   margin: 3.5em 2em 3em 3em;
-  color: #EFF6EE; }
+  color: #BFC3BA; }
   @media screen and (max-width: 600px) {
     #billie-header {
       display: flex;
@@ -1539,7 +1539,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #BFC3BA; }
   #billie-content img {
     height: auto;
     width: 35vw;
@@ -1580,7 +1580,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #trane-wrapper {
-  background-color: #273043; }
+  background-color: #39304A; }
 
 #trane-mobile-nav {
   height: 100%;
@@ -1619,7 +1619,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #273043; }
+  background-color: #39304A; }
   #trane-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
@@ -1636,7 +1636,7 @@ body {
 
 #trane-header {
   margin: 3.5em 2em 3em 3em;
-  color: #EFF6EE; }
+  color: #F3EEE7; }
   @media screen and (max-width: 600px) {
     #trane-header {
       display: flex;
@@ -1676,7 +1676,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #F3EEE7; }
   #trane-content img {
     height: auto;
     width: 35vw;
@@ -1715,31 +1715,31 @@ body {
   @media screen and (max-width: 435px) {
     #trane-content {
       margin: 0 1.5em 0 1.5em; } }
-  #trane-content #lestudio {
+  #trane-content #quartet {
     height: auto;
     width: 25vw;
     float: right;
     margin: .5em 0 .6em 1.2em;
     width: 25vw; }
     @media screen and (max-width: 600px) {
-      #trane-content #lestudio {
+      #trane-content #quartet {
         margin-left: 0; } }
     @media screen and (max-width: 1024px) {
-      #trane-content #lestudio {
+      #trane-content #quartet {
         width: 35vw; } }
     @media screen and (max-width: 600px) {
-      #trane-content #lestudio {
+      #trane-content #quartet {
         display: flex;
         margin: 2em 0 2em;
         width: 100%;
         float: none; } }
     @media screen and (max-width: 600px) {
-      #trane-content #lestudio {
+      #trane-content #quartet {
         display: flex;
         margin: 2em 0 2em;
         width: 70%;
         float: none; } }
-  #trane-content #neil81 {
+  #trane-content #quartet_live {
     height: auto;
     width: 25vw;
     float: right;
@@ -1747,13 +1747,13 @@ body {
     float: left;
     margin: .5em 1.2em .5em 0; }
     @media screen and (max-width: 600px) {
-      #trane-content #neil81 {
+      #trane-content #quartet_live {
         margin-left: 0; } }
     @media screen and (max-width: 1024px) {
-      #trane-content #neil81 {
+      #trane-content #quartet_live {
         width: 35vw; } }
     @media screen and (max-width: 600px) {
-      #trane-content #neil81 {
+      #trane-content #quartet_live {
         display: flex;
         margin: 2em 0 2em;
         width: 100%;

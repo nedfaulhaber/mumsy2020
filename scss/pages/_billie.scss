@@ -1,5 +1,5 @@
 #billie-wrapper {
-  background-color: black;
+  background-color: $pansy-purple;
 }
 
 #billie-mobile-nav {
@@ -12,9 +12,9 @@
 
 #billie-nav {
   @include nav;
-  background-color: black;
+  background-color: $pansy-purple;
   a {
-    color: $honeydew;
+    color: $silver;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #billie-header {
   @include artist-header;
-  color: $honeydew;
+  color: $silver;
 }
 
 #billie-content {
   @include content;
-  color: $honeydew;
+  color: $silver;
 }
