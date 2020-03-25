@@ -1760,7 +1760,7 @@ body {
         float: none; } }
 
 #lana-wrapper {
-  background-color: black; }
+  background-color: #031926; }
 
 #lana-mobile-nav {
   height: 100%;
@@ -1799,7 +1799,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
+  background-color: #031926; }
   #lana-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
@@ -1810,13 +1810,13 @@ body {
       height: 0;
       width: 0; } }
   #lana-nav a {
-    color: #EFF6EE; }
+    color: #468189; }
     #lana-nav a:hover {
       color: black; }
 
 #lana-header {
   margin: 3.5em 2em 3em 3em;
-  color: #EFF6EE; }
+  color: #468189; }
   @media screen and (max-width: 600px) {
     #lana-header {
       display: flex;
@@ -1865,7 +1865,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #468189; }
   #lana-content img {
     height: auto;
     width: 35vw;

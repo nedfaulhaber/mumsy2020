@@ -1,5 +1,5 @@
 #lana-wrapper {
-  background-color: black;
+  background-color: $maastricht-blue;
 }
 
 #lana-mobile-nav {
@@ -12,9 +12,9 @@
 
 #lana-nav {
   @include nav;
-  background-color: black;
+  background-color: $maastricht-blue;
   a {
-    color: $honeydew;
+    color: $teal-blue;
     &:hover {
       color: black;
     }
@@ -23,7 +23,7 @@
 
 #lana-header {
   @include artist-header;
-  color: $honeydew;
+  color: $teal-blue;
   #hope {
     @include long-song;
   }
@@ -31,5 +31,5 @@
 
 #lana-content {
   @include content;
-  color: $honeydew;
+  color: $teal-blue;
 }
