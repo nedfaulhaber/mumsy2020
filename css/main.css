@@ -895,7 +895,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #ray-wrapper {
-  background-color: #1E3231; }
+  background-color: #6A3937; }
 
 #ray-mobile-nav {
   height: 100%;
@@ -934,7 +934,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #1E3231; }
+  background-color: #6A3937; }
   #ray-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
@@ -945,13 +945,13 @@ body {
       height: 0;
       width: 0; } }
   #ray-nav a {
-    color: #EFF6EE; }
+    color: #BFB5AF; }
     #ray-nav a:hover {
       color: black; }
 
 #ray-header {
   margin: 3.5em 2em 3em 3em;
-  color: white; }
+  color: #BFB5AF; }
   @media screen and (max-width: 600px) {
     #ray-header {
       display: flex;
@@ -991,7 +991,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: white; }
+  color: #BFB5AF; }
   #ray-content img {
     height: auto;
     width: 35vw;
@@ -1906,7 +1906,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #toro-wrapper {
-  background-color: black; }
+  background-color: #030726; }
 
 #toro-mobile-nav {
   height: 100%;
@@ -1945,7 +1945,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
+  background-color: #030726; }
   #toro-nav a {
     font-family: 'Odibee Sans', cursive;
     letter-spacing: .1em;
@@ -1956,13 +1956,13 @@ body {
       height: 0;
       width: 0; } }
   #toro-nav a {
-    color: #EFF6EE; }
+    color: #C52233; }
     #toro-nav a:hover {
       color: black; }
 
 #toro-header {
   margin: 3.5em 2em 3em 3em;
-  color: #EFF6EE; }
+  color: #C52233; }
   @media screen and (max-width: 600px) {
     #toro-header {
       display: flex;
@@ -2002,7 +2002,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #C52233; }
   #toro-content img {
     height: auto;
     width: 35vw;

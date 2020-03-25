@@ -1,5 +1,5 @@
 #ray-wrapper {
-  background-color: $medium-jungle-green;
+  background-color: $wine;
 }
 
 #ray-mobile-nav {
@@ -12,9 +12,9 @@
 
 #ray-nav {
   @include nav;
-  background-color: $medium-jungle-green;
+  background-color: $wine;
   a {
-    color: $honeydew;
+    color: $black-shadows;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #ray-header {
   @include artist-header;
-  color: white;
+  color: $black-shadows;
 }
 
 #ray-content {
   @include content;
-  color: white;
+  color: $black-shadows;
 }
