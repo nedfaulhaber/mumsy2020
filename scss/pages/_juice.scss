@@ -1,5 +1,5 @@
 #juice-wrapper {
-  background-color: black;
+  background-color: $pictorial-carmine;
 }
 
 #juice-mobile-nav {
@@ -12,9 +12,9 @@
 
 #juice-nav {
   @include nav;
-  background-color: black;
+  background-color: $pictorial-carmine;
   a {
-    color: $honeydew;
+    color: $melon;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #juice-header {
   @include artist-header;
-  color: $honeydew;
+  color: $melon;
 }
 
 #juice-content {
   @include content;
-  color: $honeydew;
+  color: $melon;
 }
