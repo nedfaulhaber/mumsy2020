@@ -2093,13 +2093,13 @@ body {
       height: 0;
       width: 0; } }
   #twigs-nav a {
-    color: #EFF6EE; }
+    color: #79B473; }
     #twigs-nav a:hover {
       color: black; }
 
 #twigs-header {
   margin: 3.5em 2em 3em 3em;
-  color: #EFF6EE; }
+  color: #79B473; }
   @media screen and (max-width: 600px) {
     #twigs-header {
       display: flex;
@@ -2139,7 +2139,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #79B473; }
   #twigs-content img {
     height: auto;
     width: 35vw;

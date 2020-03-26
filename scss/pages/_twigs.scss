@@ -14,7 +14,7 @@
   @include nav;
   background-color: black;
   a {
-    color: $honeydew;
+    color: $iguana-green;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #twigs-header {
   @include artist-header;
-  color: $honeydew;
+  color: $iguana-green;
 }
 
 #twigs-content {
   @include content;
-  color: $honeydew;
+  color: $iguana-green;
 }
