@@ -155,7 +155,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: black; }
+  background-color: #893168; }
   .sidenav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
@@ -172,7 +172,7 @@ body {
     font-size: 4em;
     padding-left: .75em; }
   .sidenav a {
-    color: #45364B; }
+    color: #F3E8EE; }
 
 #home-nav {
   display: flex;
@@ -220,7 +220,7 @@ body {
     text-decoration: none;
     font-weight: bold; }
     .header a:hover {
-      color: #477998; }
+      color: black; }
   @media screen and (max-width: 525px) {
     .header {
       padding: 1em 2em 0;
@@ -1455,7 +1455,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #273043; }
+  background-color: #BFC3BA; }
   #billie-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
@@ -1472,7 +1472,7 @@ body {
     font-size: 4em;
     padding-left: .75em; }
   #billie-mobile-nav a {
-    color: #EFF6EE; }
+    color: #70163C; }
 
 #billie-nav {
   display: flex;

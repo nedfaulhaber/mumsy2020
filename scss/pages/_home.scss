@@ -9,9 +9,9 @@ body {
 
 .sidenav {
   @include mobilenav;
-  background-color: black;
+  background-color: $boysenberry;
   a {
-    color: $purple-taupe;
+    color: $isabelline;
   }
 }
 
@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     &:hover {
-      color: $queen-blue;
+      color: black;
     }
   }
   @media screen and (max-width: 525px) {
