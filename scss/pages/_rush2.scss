@@ -14,7 +14,7 @@
   @include nav;
   background-color: black;
   a {
-    color: #C5C5C5;
+    color: $silver-sand;
     &:hover {
       color: black;
     }
@@ -23,16 +23,16 @@
 
 #rush2-header {
   @include artist-header;
-  color: #C5C5C5;
+  color: $silver-sand;
 }
 
 #rush2-content {
   @include content;
-  color: #C5C5C5;
+  color: $silver-sand;
 }
 
 .neil-gallery {
-  color: #C5C5C5;
+  color: $silver-sand;
   padding: 3em 2em 5em 2em;
   height: auto;
   width: 100%;
