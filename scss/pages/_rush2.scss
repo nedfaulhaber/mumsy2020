@@ -14,7 +14,7 @@
   @include nav;
   background-color: black;
   a {
-    color: $honeydew;
+    color: #C5C5C5;
     &:hover {
       color: black;
     }
@@ -23,16 +23,16 @@
 
 #rush2-header {
   @include artist-header;
-  color: $honeydew;
+  color: #C5C5C5;
 }
 
 #rush2-content {
   @include content;
-  color: $honeydew;
+  color: #C5C5C5;
 }
 
 .neil-gallery {
-  color: $honeydew;
+  color: #C5C5C5;
   padding: 3em 2em 5em 2em;
   height: auto;
   width: 100%;

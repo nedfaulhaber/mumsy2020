@@ -2504,13 +2504,13 @@ body {
       height: 0;
       width: 0; } }
   #rush2-nav a {
-    color: #EFF6EE; }
+    color: #C5C5C5; }
     #rush2-nav a:hover {
       color: black; }
 
 #rush2-header {
   margin: 3.5em 2em 3em 3em;
-  color: #EFF6EE; }
+  color: #C5C5C5; }
   @media screen and (max-width: 600px) {
     #rush2-header {
       display: flex;
@@ -2550,7 +2550,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #EFF6EE; }
+  color: #C5C5C5; }
   #rush2-content img {
     height: auto;
     width: 35vw;
@@ -2591,7 +2591,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 .neil-gallery {
-  color: #EFF6EE;
+  color: #C5C5C5;
   padding: 3em 2em 5em 2em;
   height: auto;
   width: 100%; }
