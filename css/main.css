@@ -704,6 +704,15 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  #snares-header .song {
+    line-height: 1.2em; }
+    @media screen and (max-width: 850px) {
+      #snares-header .song {
+        margin-right: 2em; } }
+    @media screen and (max-width: 600px) {
+      #snares-header .song {
+        text-align: center;
+        margin: 0 2em 0; } }
 
 #snares-content {
   height: auto;

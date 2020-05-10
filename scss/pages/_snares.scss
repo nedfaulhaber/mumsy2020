@@ -24,6 +24,9 @@
 #snares-header {
   @include artist-header;
   color: white;
+  .song {
+    @include long-song;
+  }
 }
 
 #snares-content {
