@@ -557,17 +557,9 @@ body {
     font-style: italic; }
   #rush-content .info-link {
     text-decoration: none; }
-  #rush-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #rush-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #rush-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #rush-content {
       display: flex;
@@ -737,17 +729,9 @@ body {
     font-style: italic; }
   #snares-content .info-link {
     text-decoration: none; }
-  #snares-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #snares-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #snares-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #snares-content {
       display: flex;
@@ -874,17 +858,9 @@ body {
     font-style: italic; }
   #kim-content .info-link {
     text-decoration: none; }
-  #kim-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #kim-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #kim-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #kim-content {
       display: flex;
@@ -1011,17 +987,9 @@ body {
     font-style: italic; }
   #ray-content .info-link {
     text-decoration: none; }
-  #ray-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #ray-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #ray-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #ray-content {
       display: flex;
@@ -1148,17 +1116,9 @@ body {
     font-style: italic; }
   #khalid-content .info-link {
     text-decoration: none; }
-  #khalid-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #khalid-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #khalid-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #khalid-content {
       display: flex;
@@ -1167,6 +1127,10 @@ body {
   @media screen and (max-width: 435px) {
     #khalid-content {
       margin: 0 1.5em 0 1.5em; } }
+  #khalid-content a {
+    color: #468189; }
+    #khalid-content a:hover {
+      color: black; }
 
 #maren-wrapper {
   background-color: #353535; }
@@ -1285,17 +1249,9 @@ body {
     font-style: italic; }
   #maren-content .info-link {
     text-decoration: none; }
-  #maren-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #maren-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #maren-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #maren-content {
       display: flex;
@@ -1422,17 +1378,9 @@ body {
     font-style: italic; }
   #yvette-content .info-link {
     text-decoration: none; }
-  #yvette-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #yvette-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #yvette-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #yvette-content {
       display: flex;
@@ -1559,17 +1507,9 @@ body {
     font-style: italic; }
   #billie-content .info-link {
     text-decoration: none; }
-  #billie-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #billie-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #billie-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #billie-content {
       display: flex;
@@ -1696,17 +1636,9 @@ body {
     font-style: italic; }
   #trane-content .info-link {
     text-decoration: none; }
-  #trane-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #trane-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #trane-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #trane-content {
       display: flex;
@@ -1885,17 +1817,9 @@ body {
     font-style: italic; }
   #lana-content .info-link {
     text-decoration: none; }
-  #lana-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #lana-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #lana-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #lana-content {
       display: flex;
@@ -2022,17 +1946,9 @@ body {
     font-style: italic; }
   #toro-content .info-link {
     text-decoration: none; }
-  #toro-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #toro-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #toro-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #toro-content {
       display: flex;
@@ -2159,17 +2075,9 @@ body {
     font-style: italic; }
   #twigs-content .info-link {
     text-decoration: none; }
-  #twigs-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #twigs-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #twigs-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #twigs-content {
       display: flex;
@@ -2296,17 +2204,9 @@ body {
     font-style: italic; }
   #juice-content .info-link {
     text-decoration: none; }
-  #juice-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #juice-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #juice-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #juice-content {
       display: flex;
@@ -2433,17 +2333,9 @@ body {
     font-style: italic; }
   #nils-content .info-link {
     text-decoration: none; }
-  #nils-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #nils-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #nils-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #nils-content {
       display: flex;
@@ -2570,17 +2462,9 @@ body {
     font-style: italic; }
   #rush2-content .info-link {
     text-decoration: none; }
-  #rush2-content .lyrics {
-    margin-top: 2em;
-    font-size: 1em;
-    letter-spacing: .03em;
-    line-height: 1.7em;
-    font-weight: 400;
-    text-indent: 1.5em;
-    font-family: 'Odibee Sans', cursive; }
-    #rush2-content .lyrics a {
-      text-decoration: none;
-      color: inherit; }
+  #rush2-content a {
+    text-decoration: none;
+    color: inherit; }
   @media screen and (max-width: 600px) {
     #rush2-content {
       display: flex;

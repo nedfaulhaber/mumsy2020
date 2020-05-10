@@ -29,4 +29,10 @@
 #khalid-content {
   @include content;
   color: $anti-flash-white;
+  a {
+    color: $teal-blue;
+    &:hover {
+      color: black;
+    }
+  }
 }
