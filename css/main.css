@@ -1518,6 +1518,10 @@ body {
   @media screen and (max-width: 435px) {
     #billie-content {
       margin: 0 1.5em 0 1.5em; } }
+  #billie-content a {
+    color: #468189; }
+    #billie-content a:hover {
+      color: black; }
 
 #trane-wrapper {
   background-color: #39304A; }

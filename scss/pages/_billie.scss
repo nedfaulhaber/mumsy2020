@@ -29,4 +29,10 @@
 #billie-content {
   @include content;
   color: $silver;
+  a {
+    color: $teal-blue;
+    &:hover {
+      color: black;
+    }
+  }
 }
