@@ -2228,6 +2228,10 @@ body {
   @media screen and (max-width: 435px) {
     #juice-content {
       margin: 0 1.5em 0 1.5em; } }
+  #juice-content a {
+    color: #031926; }
+    #juice-content a:hover {
+      color: #2E86AB; }
 
 #nils-wrapper {
   background-color: #3C1518; }

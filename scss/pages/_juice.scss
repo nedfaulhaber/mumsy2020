@@ -29,4 +29,10 @@
 #juice-content {
   @include content;
   color: $melon;
+  a {
+    color: $maastricht-blue;
+    &:hover {
+      color: $steel-blue;
+    }
+  }
 }
